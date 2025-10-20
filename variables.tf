@@ -86,6 +86,14 @@ variable "database_route_table_tags" {
     default = {}
 }
 
+variable "vpc_peering_tags" {
+    default = {}
+}
+
 variable "peering_connection" {
     default = {}
+}
+
+variable "is_peering_required" {
+    default = true
 }
